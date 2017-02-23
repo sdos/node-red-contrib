@@ -100,7 +100,7 @@ function PostgresNode(n) {
 
     var connectionConfig = {
       user: node.postgresConfig.user,
-      password: node.postgresConfig.password,
+      password: "passw0rd", //node.postgresConfig.password,
       host: node.postgresConfig.hostname,
       port: node.postgresConfig.port,
       database: node.postgresConfig.db,
