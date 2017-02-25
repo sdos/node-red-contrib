@@ -99,7 +99,7 @@ function PostgresNode(n) {
   if (node.postgresConfig) {
 
     var connectionConfig = {
-      user: node.postgresConfig.user,
+      user: "postgtres", //node.postgresConfig.user,
       password: "passw0rd", //node.postgresConfig.password,
       host: node.postgresConfig.hostname,
       port: node.postgresConfig.port,
